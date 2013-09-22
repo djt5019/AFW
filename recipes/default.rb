@@ -18,6 +18,7 @@ node.default['afw']['tables']['mangle']['rules'] = []
 node.default['afw']['tables']['mangle']['chains'] = []
 node.default['afw']['tables']['nat']['rules'] = []
 node.default['afw']['tables']['nat']['chains'] = []
+node.default['afw']['rules'] ||= {} 
 
 class Chef::Recipe
   include AFW
